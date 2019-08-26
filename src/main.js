@@ -6,7 +6,14 @@ import Vue from "vue";
 // 引入vue-router
 import VueRouter from "vue-router";
 
+// 引入mint-ui
+import MintUI from "mint-ui";
+// 引入样式
+import 'mint-ui/lib/style.css'
+
+// 将插件挂载到vue上
 Vue.use(VueRouter);
+Vue.use(MintUI);
 
 // 引入创建主组件
 import app from "./app.vue";
