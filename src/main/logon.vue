@@ -1,10 +1,11 @@
 <template>
-    <h1>
-      这是通过vue创建的login组件     
-    </h1>
+    <div>
+        <h3>这是注册组件</h3>   
+    </div>
 </template>
 
 <script>
+    
 
 </script>
 
