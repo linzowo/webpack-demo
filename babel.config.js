@@ -10,10 +10,16 @@ const presets = [
         },
         useBuiltIns: "usage",
       },
-    ],
+    ]
   ];
   
   const plugins = [
-      "@babel/plugin-proposal-class-properties"
+      "@babel/plugin-proposal-class-properties",
+      ["component", 
+        {
+          "libraryName": "mint-ui",
+          "style": true
+        }
+      ,"mint-ui"]
   ];
   module.exports = { presets, plugins };
