@@ -30,6 +30,9 @@ import app from "./app.vue";
 // 引入自己的路由模块
 import router from "./router.js"
 
+// 引入样式
+import './lib/mui/css/mui.css'
+
 
 // 创建以vue实例
 var vm = new Vue({
